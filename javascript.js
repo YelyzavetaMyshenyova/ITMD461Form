@@ -10,6 +10,7 @@ function Person(firstname,lastname,number){
 
 
 $(document).ready(function(){
+  
   $("#sub").click(function(){        
       $(".allthefields").submit(); // Submit the form
       var p = new Person(
@@ -19,7 +20,14 @@ $(document).ready(function(){
         );
       p.confirm();
   });
-});            
+    $("#input").click(function(){   
+ $('#data').append(person)
+  }
+}); 
+
+
+
+
                   
                   
                   
