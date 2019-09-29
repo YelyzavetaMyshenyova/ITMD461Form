@@ -11,7 +11,8 @@ function Person(firstname,lastname,number){
 
 $(document).ready(function(){
   
-  $("#sub").click(function(){        
+  $("#sub").click(function(){ 
+    
       $(".allthefields").submit(); // Submit the form
       var p = new Person(
         document.getElementById('firstname').value, 
@@ -20,9 +21,10 @@ $(document).ready(function(){
         );
       p.confirm();
   });
+  
     $("#output").click(function(){   
  $("#data").append(person)
-  }
+  }); 
 }); 
 
 
