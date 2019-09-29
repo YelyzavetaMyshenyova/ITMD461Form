@@ -23,7 +23,7 @@ $(document).ready(function(){
   });
   
     $("#output").click(function(){   
- $("#data").append(person)
+ $("#data").append(firstname,lastname,number)
   }); 
 }); 
 
