@@ -20,7 +20,7 @@ $(document).ready(function(){
         );
       p.confirm();
   });
-    $("#input").click(function(){   
+    $("#output").click(function(){   
  $('#data').append(person)
   }
 }); 
