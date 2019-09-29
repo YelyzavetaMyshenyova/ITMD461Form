@@ -1,16 +1,11 @@
 
 $(document).ready(function(){
         
-function Person(firstname,lastname){
+function Person(firstname,lastname,number){
         this.firstname=firstname;
         this.lastname=lastname;   
         this.number=number;
+          alert(this.firstname + ' ' + this.lastname + "'s favorite number is " + this.number);
     
 }
-        $("form").submit(function(){
-                    var person = new Person(document.getElementById('firstname').value, document.getElementById('lastname').value, document.getElementById('number').value);
-  alert("Submitted" + this.firstname +'<br>'+ this.lastname +  this.number);
-        }
-
- 
-                         }
+      
