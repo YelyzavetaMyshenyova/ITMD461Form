@@ -11,7 +11,7 @@ function Person(firstname,lastname,number){
 
 $(document).ready(function(){
   $("#sub").click(function(){        
-      $("#output").submit(); // Submit the form
+      $(".allthefields").submit(); // Submit the form
       var p = new Person(
         document.getElementById('firstname').value, 
         document.getElementById('lastname').value,
