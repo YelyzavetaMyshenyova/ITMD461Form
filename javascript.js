@@ -21,7 +21,7 @@ $(document).ready(function(){
       p.confirm();
   });
     $("#output").click(function(){   
- $('#data').append(person)
+ $("#data").append(person)
   }
 }); 
 
