@@ -17,7 +17,7 @@ $(document).ready(function(){
         document.getElementById('number').value
         );
     
-
+  }); 
   });
   
     $("#output").click(function(){   
@@ -34,7 +34,7 @@ r = myObj.first[0];
 m = myObj.last[0];
 x= myObj.num[0];
 document.getElementById("data").innerHTML = r+" "+m+" "+x;
-  }); 
+
 }); 
 
 
