@@ -30,10 +30,8 @@ myObj = {
 r = myObj.first[0];
 m = myObj.last[0];
 x= myObj.num[0];
-document.getElementById("data").innerHTML = r;
-    
-    
-    
+document.getElementById("data").innerHTML = r+" "+m+" "+x;
+
   });
   
     $("#output").click(function(){   
