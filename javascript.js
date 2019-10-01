@@ -16,7 +16,7 @@ $(document).ready(function(){
         document.getElementById('lastname').value,
         document.getElementById('number').value
         );
-    document.getElementById("allthefields").reset();
+     $(this).closest('form').find("input[type=text], textarea").val("");
   }); 
 
   
