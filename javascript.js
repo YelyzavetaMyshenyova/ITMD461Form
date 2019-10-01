@@ -34,7 +34,7 @@ r = myObj.first[0];
 m = myObj.last[0];
 x= myObj.num[0];
 document.getElementById("data").innerHTML = r+" "+m+" "+x;
-
+document.getElementById("allthefields").reset();
 }); 
 
   });
