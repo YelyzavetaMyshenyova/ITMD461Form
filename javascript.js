@@ -18,9 +18,9 @@ $(document).ready(function(){
         );
     
     
-var f=firstname;
-var l=lastname;
-var n=number;
+var f=document.getElementById('firstname').value;
+var l=document.getElementById('lastname').value;
+var n=document.getElementById('number').value;
 var myObj, x, r, m;
 myObj = {
   "first":f,
@@ -29,7 +29,7 @@ myObj = {
 };
 r = myObj.first[0];
 m = myObj.last[0];
-x= myObj.last[0];
+x= myObj.num[0];
 document.getElementById("data").innerHTML = r;
     
     
