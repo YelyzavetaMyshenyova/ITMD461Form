@@ -17,7 +17,10 @@ $(document).ready(function(){
         document.getElementById('number').value
         );
     
-    
+
+  });
+  
+    $("#output").click(function(){   
 var f=document.getElementById('firstname').value;
 var l=document.getElementById('lastname').value;
 var n=document.getElementById('number').value;
@@ -31,11 +34,6 @@ r = myObj.first[0];
 m = myObj.last[0];
 x= myObj.num[0];
 document.getElementById("data").innerHTML = r+" "+m+" "+x;
-
-  });
-  
-    $("#output").click(function(){   
- $("#data").append(p.firstname,p.lastname,p.number)
   }); 
 }); 
 
