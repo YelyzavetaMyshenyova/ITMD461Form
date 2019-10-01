@@ -16,7 +16,7 @@ $(document).ready(function(){
         document.getElementById('lastname').value,
         document.getElementById('number').value
         );
-    
+    document.getElementById("allthefields").reset();
   }); 
 
   
@@ -34,7 +34,6 @@ r = myObj.first[0];
 m = myObj.last[0];
 x= myObj.num[0];
 document.getElementById("data").innerHTML = r+" "+m+" "+x;
-document.getElementById("allthefields").reset();
 }); 
 
   });
