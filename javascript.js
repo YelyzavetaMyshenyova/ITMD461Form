@@ -2,9 +2,6 @@ function Person(firstname,lastname,number){
   this.firstname = firstname;
   this.lastname = lastname; 
   this.number = number;
-  this.confirm = function(){
-    alert(this.firstname + ' ' + this.lastname + "'s favorite number is " + this.number);
-  }
 }  
 
 
@@ -19,7 +16,24 @@ $(document).ready(function(){
         document.getElementById('lastname').value,
         document.getElementById('number').value
         );
-      p.confirm();
+    
+    
+var f=firstname;
+var l=lastname;
+var n=number;
+var myObj, x, r, m;
+myObj = {
+  "first":f,
+  "last":l,
+  "num":[n]
+};
+r = myObj.first[0];
+m = myObj.last[0];
+x= myObj.last[0];
+document.getElementById("data").innerHTML = r;
+    
+    
+    
   });
   
     $("#output").click(function(){   
