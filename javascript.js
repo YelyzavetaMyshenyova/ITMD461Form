@@ -23,8 +23,8 @@ var l=document.getElementById('lastname').value;
 var n=document.getElementById('number').value;
 var myObj, x, r, m;
 myObj = {
-  "first":f,
-  "last":l,
+  "first":[f],
+  "last":[l],
   "num":[n]
 };
 r = myObj.first[0];
