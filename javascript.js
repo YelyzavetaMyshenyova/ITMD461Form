@@ -18,7 +18,7 @@ $(document).ready(function(){
         );
     
   }); 
-  });
+
   
     $("#output").click(function(){   
 var f=document.getElementById('firstname').value;
@@ -37,7 +37,7 @@ document.getElementById("data").innerHTML = r+" "+m+" "+x;
 
 }); 
 
-
+  });
 
 
                   
