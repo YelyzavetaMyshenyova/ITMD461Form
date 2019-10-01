@@ -10,7 +10,7 @@
   <body>
     <h1> Please input this information: </h1>
     <div class="contain">
-      <form class="allthefields">
+      <form class="allthefields" onsubmit="return false">
       
       <div class="field">
         <label for="firstname">First Name:</label>
@@ -28,11 +28,11 @@
       </div>
         
       <div class="field">
-        <input type="button" value="Submit" id="sub">
+        <input type="submit" value="Submit" id="sub">
       </div>
            
       <div class="field">
-        <input type="button" value="Output" id="output">
+        <input type="submit" value="Output" id="output">
       </div>
         
         <p id="data"> </p>
